@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaLocationArrow, FaPhone } from "react-icons/fa6";
-import { Email } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+
+
 
 const Footer = () => {
   const hours = [
@@ -71,7 +73,9 @@ const Footer = () => {
               <span>1234567890</span>
             </div>
             <div>
-              <Email />
+              
+              <MdEmail/>
+              
               <span>zeelab@gmail.com</span>
             </div>
             <div>
