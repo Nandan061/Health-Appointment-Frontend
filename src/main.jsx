@@ -6,6 +6,7 @@ export const Context = createContext({
   isAuthenticated: false,
 });
 
+
 const AppWrapper = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState({});
@@ -19,7 +20,7 @@ const AppWrapper = () => {
         setUser,
       }}
     >
-      <App />
+      <App/>
     </Context.Provider>
   );
 };

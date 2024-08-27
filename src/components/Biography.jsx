@@ -11,26 +11,24 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
+          Medanta Medical Institute stands as a beacon of excellence in the healthcare sector,
+          known for its unwavering commitment to quality care and patient-centered services.
+          Founded with the vision of bringing the highest standards of medical expertise and
+          advanced technology to India, Medanta has grown into a world-class institution that
+          offers comprehensive healthcare solutions across a wide range of specialties.
           </p>
           <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
+          
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
+          Medanta’s commitment to excellence extends beyond patient care to encompass the training
+          of future medical professionals, fostering a culture of continuous learning and development.
+          As a leader in the healthcare industry, Medanta is not just a place for healing but a trusted
+          partner in your journey towards better health and well-being.
           </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
+          <p>
+          Medanta is where cutting-edge medicine meets compassionate
+          care, ensuring every patient's well-being is our highest priority.
+          </p>
         </div>
       </div>
     </>

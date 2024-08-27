@@ -4,8 +4,8 @@ import { FaLocationArrow, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 
-
 const Footer = () => {
+
   const hours = [
     {
       id: 1,
@@ -39,11 +39,12 @@ const Footer = () => {
     },
   ];
 
+
   return (
     <>
       <footer className={"container"}>
         <hr />
-        <div className="content">
+        <div className="content" >
           <div>
             <img src="/logo.png" alt="logo" className="logo-img"/>
           </div>
@@ -70,17 +71,15 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>1234567890</span>
+              <span>8969976351</span>
             </div>
             <div>
-              
               <MdEmail/>
-              
-              <span>zeelab@gmail.com</span>
+              <span>medanta@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />
-              <span>Delhi India</span>
+              <span>NIT Agartala, India</span>
             </div>
           </div>
         </div>

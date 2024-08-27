@@ -7,10 +7,14 @@ import { Link, useNavigate, Navigate } from "react-router-dom";
 const Login = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
+
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
+
+  console.log(email)
   const navigateTo = useNavigate();
 
   const handleLogin = async (e) => {
@@ -41,15 +45,15 @@ const Login = () => {
   if (isAuthenticated) {
     return <Navigate to={"/"} />;
   }
-
+  
   return (
     <>
       <div className="container form-component login-form">
         <h2>Sign In</h2>
         <p>Please Login To Continue</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+        "Sign in to access your personalized healthcare dashboard.
+         Stay connected with your health records, appointments, and expert advice, all in one place."
         </p>
         <form onSubmit={handleLogin}>
           <input

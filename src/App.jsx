@@ -12,9 +12,9 @@ import Navbar from './components/Navbar';
 import axios from "axios";
 import { Context } from "./main";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 const App = () => {
-  
   return (
     <>
       <Router>
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-        <Footer/>
+        <Footer  />
         <ToastContainer position="top-center" />
       </Router>
     </>
