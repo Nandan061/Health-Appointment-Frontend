@@ -32,13 +32,11 @@ const AppointmentForm = () => {
     "ENT",
   ];
 
-  const baseURL = process.env.REACT_APP_API_URL || "http://localhost:4000"; // Default to localhost in dev
-
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
         const { data } = await axios.get(
-          `${baseURL}/api/v1/user/doctors`,
+          "/api/v1/user/doctors",
           { withCredentials: true }
         );
         setDoctors(data.doctors);
@@ -47,14 +45,14 @@ const AppointmentForm = () => {
       }
     };
     fetchDoctors();
-  }, [baseURL]);
+  }, []);
 
   const handleAppointment = async (e) => {
     e.preventDefault();
     try {
       const hasVisitedBool = Boolean(hasVisited);
       const { data } = await axios.post(
-        `${baseURL}/v1/appointment/post`,
+        "/v1/appointment/post",
         {
           firstName,
           lastName,
@@ -90,7 +88,7 @@ const AppointmentForm = () => {
       setHasVisited(false);
       setAddress("");
     } catch (error) {
-      toast.error(error.response?.data?.message || "Failed to book appointment");
+      toast.error(error.response.data.message);
     }
   };
 
