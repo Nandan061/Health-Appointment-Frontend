@@ -52,7 +52,7 @@ const AppointmentForm = () => {
     try {
       const hasVisitedBool = Boolean(hasVisited);
       const { data } = await axios.post(
-        "/v1/appointment/post",
+        "/api/v1/appointment/post",
         {
           firstName,
           lastName,
