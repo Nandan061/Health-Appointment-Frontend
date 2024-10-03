@@ -37,6 +37,11 @@ const Footer = () => {
       day: "Saturday",
       time: "9:00 AM - 3:00 PM",
     },
+    {
+      id: 6,
+      day: "Sunday",
+      time: "Only Emergency",
+    },
   ];
 
 
@@ -71,11 +76,11 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>8969976351</span>
+              <span>+91 8969976351</span>
             </div>
             <div>
               <MdEmail/>
-              <span>medanta@gmail.com</span>
+              <span>nraj63305@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />
